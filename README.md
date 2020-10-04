@@ -1,14 +1,14 @@
-# work-day-scheduler
+# Work Day Scheduler
 
 This is a day planner, complete with time-blocks that you can edit, save, and refresh, as well as color coordination depending on time of day.
 
-Technologies Used
-*HTML
-*CSS
-*JavaScript
-*Moment.JS
-*jQuery
-*Bootstrap
+Technologies Used:
+* HTML
+* CSS
+* JavaScript
+* Moment.JS
+* jQuery
+* Bootstrap
 
 ![screenshot1](./images/screenshot.png)
 
