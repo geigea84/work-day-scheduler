@@ -1,5 +1,7 @@
 # Work Day Scheduler
 
+https://geigea84.github.io/work-day-scheduler/
+
 This is a day planner, complete with time-blocks that you can edit, save, and refresh, as well as color coordination depending on time of day.
 
 Technologies Used:
