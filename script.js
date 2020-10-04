@@ -63,4 +63,21 @@ $(".saveBtn").on("click", function() {
     localStorage.setItem("#17", $("#17 .description").val());
 });
 
-//getItem from local storage
+//"A page can't be manipulated safely until the document is "ready." 
+//jQuery detects this state of readiness for you. Code included 
+//inside $( document ).ready() will only run once the page Document 
+//Object Model (DOM) is ready for JavaScript code to execute. Code 
+//included inside $( window ).on( "load", function() { ... }) will run 
+//once the entire page (images or iframes), not just the DOM, is ready."
+$(document).ready(function() {
+    //getItem from local storage
+    $("#09 .description").val(localStorage.getItem("#09"));
+    $("#10 .description").val(localStorage.getItem("#10"));
+    $("#11 .description").val(localStorage.getItem("#11"));
+    $("#12 .description").val(localStorage.getItem("#12"));
+    $("#13 .description").val(localStorage.getItem("#13"));
+    $("#14 .description").val(localStorage.getItem("#14"));
+    $("#15 .description").val(localStorage.getItem("#15"));
+    $("#16 .description").val(localStorage.getItem("#16"));
+    $("#17 .description").val(localStorage.getItem("#17"));
+});
